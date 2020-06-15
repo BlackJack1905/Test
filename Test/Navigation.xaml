@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:Test"
+             x:Class="Test.Navigation">
+
+
+    <TabBar>
+        <Tab Title="Start"
+             Icon="">
+            <ShellContent>
+                <views:Webview/>
+            </ShellContent>
+            </Tab>
+
+
+        <Tab Title="Test"
+             Icon="">
+            <ShellContent>
+                <views:Test/>
+            </ShellContent>
+            </Tab>
+
+          <Tab Title="Text und Bild"
+             Icon="">
+            <ShellContent>
+                <views:Text_und_Foto/>
+            </ShellContent>
+            </Tab>
+
+    </TabBar>
+</Shell>
